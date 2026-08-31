@@ -31,5 +31,10 @@
 
   <div class="card">First card</div>
   <div class="card">Second card</div>
+  <script>
+  document.querySelectorAll(".card").forEach((card) => {
+    card.classes.add("highlight");
+  });
+</script>
 </body>
 </html>
